@@ -1,0 +1,219 @@
+.cover{
+  width: 100%;
+
+}
+.nav{
+  background: rgb(108,48,21);
+  background: linear-gradient(90deg, rgba(108,48,21,0.9475140397956058) 0%, rgba(0,0,0,1) 50%, rgba(22,71,81,1) 100%);
+  margin: auto;
+
+}
+
+
+.navbar-brand {
+  font-family: "Ubuntu",sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+
+}
+.i{
+  position: absolute;
+}
+.nav-item {
+  padding: 2px;
+}
+
+.nav-link {
+ font-size: 1.2rem;
+ font-family: "Montserrat-Light",sans-serif 200;
+}
+.intro{
+  background-color: none;
+  height: 40px;
+  width: 30%;
+
+
+  z-index: 1;
+}
+body{
+  text-align: center;
+  background-color: aliceblue;
+  margin: 0px;
+font-family: 'Montserrat', sans-serif;
+  color: #40514E;
+}
+.bio{
+  padding-bottom: 10px;
+  margin: auto;
+  width: 60%;
+  line-height: 2;
+}
+.home{
+  position: fixed;
+  color: red;
+  margin: auto;
+}
+hr{
+  padding: 10px none 10px;
+  height: 0px;
+  border-style: dotted none none;
+  color: #c0c0c0;
+  width: 6%;
+  border-width: 15px;
+}
+h1{
+  font-family: 'Qwigley', cursive;
+  font-size: 6rem;
+  color: hsl(210, 100%, 50%)
+
+  }
+  h4{
+    font-family: '|Merriweather',sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+  }
+  h3{
+    font-family: 'Montez' ,cursive;
+    font-size: 2.4rem;
+    font-weight: normal;
+  }
+  h2{
+    color: #daa520;
+  }
+  h2:hover{
+    color: aqua;
+  }
+.logo{
+  height: 200px;
+  width: 200px;
+  float: left;
+  border-radius: 100px;
+  margin-right: 5%;
+
+
+}
+.photography{
+  height: 200px;
+  width: 200px;
+  float: left;
+  border-radius: 100px;
+  margin-right: 5%;
+}
+.drawing{
+  height: 200px;
+  width: 200px;
+  float: right;
+  border-radius: 100px;
+  margin-left: 5%;
+}
+.chicken{
+  height: 200px;
+  width: 200px;
+  float: right;
+  border-radius: 100px;
+  margin-left: 5%;
+}
+.skill-row{
+  width: 70%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+    line-height:  2;
+}
+.top{
+  animation-delay: 1s;
+  background-color: #e0ffff;
+}
+.bottom-container{
+  background-color: #e0ffff;
+
+}
+.pro{
+position: relative;
+top:8px;
+right: 5px;
+}
+.cloud{
+height: 50px;
+width: 150px;
+}
+.mountain{
+  height: 300px;
+  width: 60%;
+
+  position: relative;
+
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+}
+#uppercloud{
+  position: relative;
+  top: 50px;
+  left: 250px;
+}
+#lowercloud{
+position: relative;
+top: 250px;
+right: 250px;
+}
+.mountain{
+
+}
+#Name:hover{
+  color: 	#8a2be2;
+  position:relative;
+  width: 20%;
+}
+
+.footer-link{
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  padding: 10px;
+}
+.mail{
+  height: 50px;
+  width: 60px;
+}
+.copyright{
+  color: 	#8a2be2;
+}
+h4{
+  color: aliceblue;
+}
